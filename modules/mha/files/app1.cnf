@@ -1,0 +1,18 @@
+[server default]
+# mysql user and password
+user=root
+password=percona
+ssh_user=root
+# working directory on the manager
+manager_workdir=/var/log/masterha/app1
+# working directory on MySQL servers
+remote_workdir=/var/log/masterha/app1
+
+[server1]
+hostname=percona1
+
+[server2]
+hostname=percona2
+
+[server3]
+hostname=percona3
